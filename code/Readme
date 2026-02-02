@@ -1,6 +1,20 @@
-1datapre: TEMPERATURE PREDICTION RESULTS FOR THE TEST SET USING THREE THERMAL MODELS FOR THE FIRST DATASET WITH 2-CHANNEL INPUT
-2datapre: TEMPERATURE PREDICTION RESULTS FOR THE TEST SET USING FIVE THERMAL MODELS FOR THE SECOND DATASET WITH 3-CHANNEL INPUT
-2datainverse:  HTCinverse：ACCURACY AND EFFICIENCY OF THE HTC ESTIMATION USING THE PROPOSED DEEP NEURAL NETWORK-BASED INVERSE ALGORITHM  
-               powerinverse：ACCURACY AND EFFICIENCY OF THE POWER MAP ESTIMATION USING THE PROPOSED DEEP NEURAL NETWORK-BASED INVERSE ALGORITHM
-3datapre: TEMPERATURE PREDICTION RESULTS FOR THE TEST SET USING FIVE THERMAL MODELS FOR THE THIRD DATASET 
-3datainverse:ACCURACY AND EFFICIENCY OF THE POWER MAP ESTIMATION USING THE PROPOSED DEEP NEURAL NETWORK-BASED INVERSE ALGORITHM
+
+All data are organized within the code directory and structured as follows:
+
+1datapre:
+Temperature prediction results for the test set using three thermal models on the first dataset with 2-channel input.
+
+2datapre:
+Temperature prediction results for the test set using five thermal models on the second dataset with 3-channel input.
+
+2datainverse:
+
+HTCinverse: Accuracy and efficiency of heat transfer coefficient (HTC) estimation using the proposed deep neural network–based inverse algorithm.
+
+powerinverse: Accuracy and efficiency of power map estimation using the proposed deep neural network–based inverse algorithm.
+
+3datapre:
+Temperature prediction results for the test set using five thermal models on the third dataset.
+
+3datainverse:
+Accuracy and efficiency of power map estimation using the proposed deep neural network–based inverse algorithm.
