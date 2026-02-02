@@ -1,3 +1,6 @@
+Data Availability
+
+The datasets used in this study are publicly available via OneDrive at:
 https://1drv.ms/f/c/13ab85533c58e493/IgDSMrvx17vPRKESUcubxwiOAfy88ii8fJq7fQRN5KMisUU
 
 1.
@@ -26,7 +29,7 @@ https://1drv.ms/f/c/13ab85533c58e493/IgDSMrvx17vPRKESUcubxwiOAfy88ii8fJq7fQRN5KM
 <input>
   input data of pbthermal 
   [File]:
-  initial_temp_map files(30) X core_power_trace files(20) X boundary condition map(5)
+  initial_temp_map files(30) X core_power_trace files(20) X boundary condition map(5) X times(20)
   [Naming rule]: 
   temp_map.${initial temperature map id}.dat
   core.trans${core power trace id}.ptrace.yaml
@@ -35,7 +38,7 @@ https://1drv.ms/f/c/13ab85533c58e493/IgDSMrvx17vPRKESUcubxwiOAfy88ii8fJq7fQRN5KM
 <output>
   output result of pbthermal
   [File]:
-  result_summary files(3000) 
+  result_summary files(3000) *times(20)
   [Naming rule]: 
   result_summary${initial temperature map id}-${core power trace id}-HTC${HTC value}.dat
 
