@@ -1,0 +1,24 @@
+Data Availability
+
+The datasets used in this study are publicly available via OneDrive at:
+https://1drv.ms/f/c/13ab85533c58e493/IgDSMrvx17vPRKESUcubxwiOAfy88ii8fJq7fQRN5KMisUU
+
+All data are organized within the code directory and structured as follows:
+
+1datapre:
+Temperature prediction results for the test set using three thermal models on the first dataset with 2-channel input.
+
+2datapre:
+Temperature prediction results for the test set using five thermal models on the second dataset with 3-channel input.
+
+2datainverse:
+
+HTCinverse: Accuracy and efficiency of heat transfer coefficient (HTC) estimation using the proposed deep neural network–based inverse algorithm.
+
+powerinverse: Accuracy and efficiency of power map estimation using the proposed deep neural network–based inverse algorithm.
+
+3datapre:
+Temperature prediction results for the test set using five thermal models on the third dataset.
+
+3datainverse:
+Accuracy and efficiency of power map estimation using the proposed deep neural network–based inverse algorithm.
